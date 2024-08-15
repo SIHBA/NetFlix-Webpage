@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-image{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url('images/header-image.png');
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 650px;
+    position: relative;
+}
+.navbar{
+   position: absolute;
+   width: 100%;
+}
+.forms{
+    align-items: center;
+    border-radius: 2px;
+    height: 35px;
+    width: 100px;
+}
+.btn{
+    align-items: center;
+    border-radius: 5px;
+    height: 37px;
+}
+.content{
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    font-weight: bold;
+}
+.forms1{
+    align-items: center;
+    border-radius: 5px;
+    height: 37px;
+    color: black;
+    background-color: rgb(212, 181, 140);
+}
+.section1{
+    background-color: black;
+    color: white;
+    height: 450px;
+    border-bottom: 1px solid rgb(245, 181, 181);
+    
+}
+.left{
+    display: inline-block;
+    text-align: center;
+    padding-top: 80px;
+    font-weight: bold;
+    height: 300px;
+    width: 45%;
+}
+.right{
+    width: 50%;
+    display: inline-block;
+    height: 400px;
+    
+}
+@media(max-width:576px){
+    .section1{
+        height: 550px;
+    }
+    .left{
+width: 100%;
+height: 100px;
+
+    }
+    .right{
+        width: 100%;
+        height: 100px;
+
+    }
+    }
+video{
+   margin-top: 100px;
+}
+.section2{
+    background-color: black;
+    color: white;
+    height: 450px;
+    border-bottom: 1px solid rgb(245, 181, 181);
+}
+.left2{
+    width: 45%;
+    height: 400px;
+    display: inline-block;
+}
+.right2{
+    display: inline-block;
+    text-align: left;
+    padding-top: 120px;
+    font-weight: bold;
+    height: 300px;
+    width: 50%;
+}
+
+@media(max-width:576px){
+    .section2{
+        height: 600px;
+    }
+    .left2{
+width: 100%;
+height: 100px;
+
+    }
+    .right2{
+        width: 100%;
+        height: 100px;
+       text-align: center;
+    }
+    }
+    .faq{
+        background-color: black;
+        color: white;
+        height: 800px;
+        border-bottom: 1px solid rgb(245, 181, 181);
+    }
+.faq h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+}
+.accordion-item button{
+    font-size: 20px;
+}
+.accordion-para{
+    padding-left: 50px;
+    font-size: 20px;
+}
+.accordion{
+    width: 70%;
+    margin-left: 200px;
+    color: white;
+    margin-top: 20px;
+    border-bottom: 1px solid rgb(245, 181, 181);
+}
+.accordion-button{
+   background-color: rgb(102, 89, 89);
+   color: white;
+}
+.accordion-collapse{
+    background-color: rgb(68, 40, 40);
+    color: white;
+}
+.membership-para{
+    margin-top: 50px;
+    text-align: center;
+}
+.get-started{
+    text-align: center;
+    color: white;
+}
+.forms2{
+    border-radius: 5px;
+    height: 50px;
+    color: white;
+    background-color: black;
+}
+.get-started button{
+    height: 50px;
+    width:150px
+}
+@media(max-width:576px){
+    .faq{
+        height: 870px;
+    }
+    .faq h1{
+        padding-top: 25px;
+    }
+    .accordion{
+        width: 90%;
+     margin-left: 30px;
+    }
+    .accordion-item button{
+        font-size: 15px;
+    }
+    .accordion-para{
+        padding-left: 10px;
+        font-size: 15px;
+    }
+    .membership-para{
+        margin-top: 10px;
+    }
+}
+.footer{
+        background-color: black;
+        color: white;
+        height: 250px;
+        border-bottom: 1px solid rgb(245, 181, 181);
+
+    }
+.footer-para{
+    margin-top: 50px;
+    display: inline-block;
+    margin-left: 60px;
+}
+.footer1{
+    margin-top: 50px;
+    display: inline-block;
+    width: 20%;
+    margin-left: 60px;
+}
+.footer2{
+    margin-top: 50px;
+    display: inline-block;
+    width: 20%;
+    margin-left: 60px;
+}
+.footer3{
+    margin-top: 50px;
+    display: inline-block;
+    width: 20%;
+    margin-left: 60px;
+}
+.footer4{
+    margin-top: 50px;
+    margin-left: 60px;
+    display: inline-block;
+    width: 20%;
+}
+@media(max-width:576px){
+    .footer{
+height: 400px;
+    }
+    .footer-para{
+        margin-top: 50px;
+        width: 100%;
+        margin-left:20px ;
+    }
+    .footer1{
+        margin-top: 50px;
+        width: 40%;
+        margin-left:20px ;
+    }
+    .footer2{
+        margin-top: 50px;
+        width: 40%;
+        margin-left:20px ;
+    }
+    .footer3{
+        margin-top: 50px;
+        width: 40%;
+        margin-left:20px ;
+    }
+    .footer4{
+        margin-top: 50px;
+        width: 40%;
+        margin-left:20px ;
+    }
+}
+
